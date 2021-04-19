@@ -1,0 +1,20 @@
+
+Webpack works only with .js
+Webpack goes from right to left(loaders)
+
+npm install -D html-webpack-plugin
+
+command will clear you dist folder
+npm install -D clean-webpack-plugin
+
+start with dev mode
+npm run dev
+
+start with --mode production
+npm run build
+
+loaders help understand .css
+npm install -D style-loader css-loader
+
+webpack will check updates automatically
+npm run watch
