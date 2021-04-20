@@ -1,5 +1,6 @@
 
 Webpack works only with .js
+It doesn't understand .css or .png
 Webpack goes from right to left(loaders)
 
 npm install -D html-webpack-plugin
@@ -18,3 +19,28 @@ npm install -D style-loader css-loader
 
 webpack will check updates automatically
 npm run watch
+
+loaders are present in webpackconfig -> module -> rules
+import our loaders in index.js 'import csv from' 
+
+loader for .img understand
+npm install-D file-loader
+
+normalize fonts and styles for different browsers
+npm i normalize.css
+
+from package.json for all users public
+ "main": "index.js", instead   "private": "true",
+
+loader for xml
+npm i -D xml-loader
+
+loader for csv
+npm i -D csv-loader
+if doesn't work you should install another package once
+npm i -D papaparse
+
+alias - path to some folders you can change on @name
+
+connect jquery library
+npm i -S jquery
